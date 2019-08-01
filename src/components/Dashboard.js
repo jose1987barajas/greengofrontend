@@ -7,7 +7,7 @@ const Dashboard = () => {
   const [allPosts, setPosts] = useState([])
   useEffect(() => {
     const getPosts = async () => {
-      const { data } = await axios.get('http://localhost:3000/post')
+      const { data } = await axios.get('https://greengo.now.sh/post')
 
       setPosts(data)
     }

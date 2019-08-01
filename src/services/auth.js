@@ -1,5 +1,5 @@
 import axios from 'axios'
-const baseURL = 'http://localhost:3000'
+const baseURL = 'https://greengo.now.sh'
 
 class AuthService {
   constructor() {

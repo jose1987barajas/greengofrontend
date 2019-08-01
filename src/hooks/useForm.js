@@ -18,7 +18,7 @@ const useForm = () => {
 
     const {
       data: { img }
-    } = await axios.post('http://localhost:3000/upload', file)
+    } = await axios.post('https://greengo.now.sh/upload', file)
     setForm(prevState => ({
       ...prevState,
       img
